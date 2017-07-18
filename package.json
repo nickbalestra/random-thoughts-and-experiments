@@ -16,7 +16,7 @@
     "coverage": "codecov",
     "test": "jest",
     "commitmsg": "validate-commit-msg",
-    "commit": "git-cz",
+    "gitcommit": "git-cz",
     "publish": "lerna publish --conventional-commits --yes --exact",
     "precommit": "lint-staged"
   },
@@ -36,7 +36,7 @@
         "required": false,
         "validate": false
       },
-      "helpMessage": "\n📦:🛠✨💥  Continuos semantic release ahead\nDon't worry, we'll walk you through...\nJust type 'npm run commit' instead of 'git commit'"
+      "helpMessage": "\n📦:🛠✨💥  Continuos semantic release ahead\nDon't worry, we'll walk you through...\nJust type 'npm run gitcommit' instead of 'git commit'"
     }
   },
   "jest": {
