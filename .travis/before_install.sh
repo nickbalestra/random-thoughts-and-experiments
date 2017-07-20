@@ -14,7 +14,6 @@ if [[ $TRAVIS_BRANCH == 'master' ]]; then
   # git remote add origin https://github.com/nickbalestra/random-thoughts-and-experiments.git
   # git fetch origin
   git clone https://github.com/$TRAVIS_REPO_SLUG.git $TRAVIS_REPO_SLUG
-  cd $TRAVIS_REPO_SLUG
   git checkout $TRAVIS_BRANCH
 
   git config credential.helper store
