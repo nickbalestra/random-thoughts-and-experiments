@@ -8,11 +8,11 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
 fi
 
 if [[ $TRAVIS_BRANCH == 'master' ]]; then
-  rm -rf .git
-  git init
-  git clean -dfx
-  git remote add origin https://github.com/nickbalestra/random-thoughts-and-experiments.git
-  git fetch origin
+  # rm -rf .git
+  # git init
+  # git clean -dfx
+  # git remote add origin https://github.com/nickbalestra/random-thoughts-and-experiments.git
+  # git fetch origin
   git clone https://github.com/$TRAVIS_REPO_SLUG.git $TRAVIS_REPO_SLUG
   cd $TRAVIS_REPO_SLUG
   git checkout $TRAVIS_BRANCH
@@ -28,8 +28,8 @@ if [[ $TRAVIS_BRANCH == 'master' ]]; then
   git config --global push.default simple
 
   git fetch --tags
-  git branch -u origin/$TRAVIS_BRANCH
-  git fsck --full #debug
+  # git branch -u origin/$TRAVIS_BRANCH
+  # git fsck --full #debug
   echo "npm whoami"
   npm whoami #debug
   echo "git config --list"
