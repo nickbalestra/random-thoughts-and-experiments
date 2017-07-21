@@ -27,8 +27,8 @@ if [[ $TRAVIS_BRANCH == 'master' ]]; then
   git config --global push.default simple
 
   git fetch --tags
-  # git branch -u origin/$TRAVIS_BRANCH
-  # git fsck --full #debug
+  git branch -u origin/$TRAVIS_BRANCH
+  git fsck --full #debug
   echo "npm whoami"
   npm whoami #debug
   echo "git config --list"
