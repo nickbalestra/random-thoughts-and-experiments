@@ -5,6 +5,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
   npm run coverage
 fi
 
-if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_NODE_VERSION == "6" ]]; then
+if [[ $TRAVIS_BRANCH == 'master' ]]; then
+  echo $TRAVIS_NODE_VERSION
   npm run semantic-release
 fi
