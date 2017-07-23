@@ -18,7 +18,7 @@ if [ $TRAVIS_BRANCH == 'master' ]; then
     git checkout $TRAVIS_BRANCH
 
     git config credential.helper store
-    echo "https://${RELEASE_GH_USERNAME}:${RELEASE_GH_TOKEN}@github.com/nickbalestra/random-thoughts-and-experiments.git" > ~/.git-credentials
+    echo "https://${RELEASE_GH_USERNAME}:${RELEASE_GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" > ~/.git-credentials
 
     npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN -q
     npm prune
