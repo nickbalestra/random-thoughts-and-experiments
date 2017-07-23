@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/nickbalestra/random-thoughts-and-experiments.git"
   },
-  "version": "2.2.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,7 @@
   "author": "Nick Balestra",
   "license": "MIT",
   "dependencies": {
+    "experiments-and-random-thoughts": "1.0.0",
     "lodash": "^4.17.4"
   }
 }
