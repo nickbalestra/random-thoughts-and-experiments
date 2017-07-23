@@ -41,6 +41,7 @@
     }
   },
   "jest": {
+    "rootDir": "packages",
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
   }
