@@ -37,7 +37,7 @@
         "required": false,
         "validate": false
       },
-      "helpMessage": "\n📦:🛠✨💥  Continuos semantic release ahead\nDon't worry, we'll walk you through...\nJust type 'npm run commit' instead of 'git commit'"
+      "helpMessage": "Please, execute `npm run commit` to generate a correct commit message"
     }
   },
   "jest": {
