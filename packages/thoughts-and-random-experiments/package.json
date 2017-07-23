@@ -1,5 +1,5 @@
 {
-  "name": "random-thoughts-and-experiments",
+  "name": "thoughts-and-random-experiments",
   "repository": {
     "type": "git",
     "url": "https://github.com/nickbalestra/random-thoughts-and-experiments.git"
@@ -14,7 +14,7 @@
   "author": "Nick Balestra",
   "license": "MIT",
   "dependencies": {
-    "experiments-and-random-thoughts": "1.0.0",
+    "experiments-and-random-thoughts": "2.0.0",
     "lodash": "^4.17.4"
   }
 }

@@ -14,7 +14,7 @@
   "author": "Nick Balestra",
   "license": "MIT",
   "dependencies": {
-    "random-thoughts-and-experiments": "2.2.0",
+    "random-thoughts-and-experiments": "2.3.0",
     "lodash": "^4.17.4"
   }
 }
