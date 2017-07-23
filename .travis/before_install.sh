@@ -34,5 +34,6 @@ if [ $TRAVIS_BRANCH == 'master' ]; then
     npm whoami #debug
     echo "git config --list"
     git config --list #debug
+    cd $TRAVIS_REPO_SLUG
   fi
 fi
