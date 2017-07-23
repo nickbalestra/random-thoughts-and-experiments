@@ -37,7 +37,7 @@
         "required": false,
         "validate": false
       },
-      "helpMessage": "Please, execute  `npm run commit` to generate a correct commit message"
+      "helpMessage": "Please, execute `npm run commit` to generate a correct commit message"
     }
   },
   "jest": {
