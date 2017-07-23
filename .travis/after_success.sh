@@ -6,7 +6,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
 fi
 
 if [ $TRAVIS_BRANCH == 'master' ]; then
-  if [ $TRAVIS_NODE_VERSION == '8' ]; then
+  if [ $TRAVIS_NODE_VERSION == '6' ]; then
     npm run semantic-release
   fi
 fi
